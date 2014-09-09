@@ -41,6 +41,16 @@
 		 	<li><?php echo $studient4 ?></li>
 		 	<li><?php echo $studient5 ?></li>
 		 </ul>
+		 <?php  
+		   $firstname = "Triinu";
+		   $lastname = "Ausmees";
+		   $fullname = $firstname . " " . $lastname;
+
+		   echo $fullname;
+
+
+
+		 ?>
 
 
 
