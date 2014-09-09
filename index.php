@@ -25,10 +25,24 @@
 		 $textnum = "24";
 		 $textnum2 = "26";
 		 echo $textnum . $textnum2;
-		
+		?>
+		<h3>Nimekirja väljastamine muutujate ja stringide abil</h3> 
+		 <?php  
+		   $studient1 = "Ingrid";
+		   $studient2 = "Eve";
+		   $studient3 = "Merili";
+		   $studient4 = "Silja";
+		   $studient5 = "Fränk";
+		 ?>
+		 <ul>
+		 	<li><?php echo $studient1 ?></li>
+		 	<li><?php echo $studient2 ?></li>
+		 	<li><?php echo $studient3 ?></li>
+		 	<li><?php echo $studient4 ?></li>
+		 	<li><?php echo $studient5 ?></li>
+		 </ul>
 
 
-	   ?>
 
 
 
