@@ -47,10 +47,15 @@
 		   $fullname = $firstname . " " . $lastname;
 
 		   echo $fullname;
+		 ?>
 
-
+		<h3>Stringi interpolatsioon</h3>  
+		<?php
+		  $test = "Proovime";
+		  echo "$test kas interpolatsioon töötab";
 
 		 ?>
+
 
 
 
