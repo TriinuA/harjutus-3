@@ -21,9 +21,14 @@
 	     echo $message;
 	     $message2 = 'Hello :)';
 		 echo $message2;
+		 echo "<br>";
+		 $textnum = "24";
+		 $textnum2 = "26";
+		 echo $textnum . $textnum2;
+		
 
 
-	   ?>mina
+	   ?>
 
 
 
