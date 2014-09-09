@@ -23,7 +23,7 @@
 		 echo $message2;
 
 
-	   ?>
+	   ?>mina
 
 
 
