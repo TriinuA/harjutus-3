@@ -50,11 +50,33 @@
 		 ?>
 
 		<h3>Stringi interpolatsioon</h3>  
-		<?php
-		  $test = "Proovime";
-		  echo "$test kas interpolatsioon töötab";
+			<?php
+			  $test = "Proovime";
+			  echo "$test kas interpolatsioon töötab";
+			  echo "<br>";
 
+			  $age = "35";
+			  echo  "Ma olen {$age}ne aastane";
+
+			 ?>
+		 <h3>Nimekirja väljastamine muutujate ja stringide abil</h3>
+		 <?php  
+		   $source = "see Tekst SISALDAB suuri TAHEMARKE!!!";
+		   $lower = strtolower($source);
+		   echo  "<br>" . $source;
+		   echo "<p>{$lower}</p>";
+		   echo  "<br>";
+		   $upper = strtoupper($source);
+		   echo "<p>{$upper}</p>";
+		   $firstupper = ucfirst($lower);
+		   echo "<p>{$firstupper}</p>";
+		   $allfirstupper = ucwords($lower);
+		   echo "<p>{$allfirstupper}</p>";
+		   echo strlen($source);
+		   echo  "<br>";
+		   echo "Mina" . trim("    kirjutan kogu jutu      ") . "järjest";
 		 ?>
+
 
 
 
