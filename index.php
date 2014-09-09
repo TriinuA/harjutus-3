@@ -74,8 +74,32 @@
 		   echo "<p>{$allfirstupper}</p>";
 		   echo strlen($source);
 		   echo  "<br>";
-		   echo "Mina" . trim("    kirjutan kogu jutu      ") . "järjest";
+		   echo "Mina " . trim("    kirjutan kogu jutu      ") . " järjest";
 		 ?>
+		 <h2>Arvud</h2>
+		 <h3>Täisarvud</h3>
+		 <?php  
+		   $num1 = 13;
+		   $num2 = 9;
+		   echo ($num1 * $num2) * 10;
+		 ?>
+		 <h3>Numbri funktsioonid</h3>
+		   <?php  
+		     echo abs (-286); //absoluutväärtus
+		     echo  "<br>";
+		     echo pow(4, 3);  //astendamine, esmine on astendatav ja teine astendaja
+		     echo  "<br>";
+		     echo pow(2, 2);
+		     echo  "<br>";
+		     echo pow(247, 65);
+		     echo  "<br>";
+		     echo rand(); //genereerib suvalise juhusliku numbri
+		     echo  "<br>";
+		     echo rand(17, 35);
+
+
+		   ?>
+
 
 
 
