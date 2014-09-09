@@ -95,17 +95,41 @@
 		     echo  "<br>";
 		     echo rand(); //genereerib suvalise juhusliku numbri
 		     echo  "<br>";
-		     echo rand(17, 35);
+		     echo rand(17, 35); //genereerib suvalise numbri vahemikus 17 kuni 35
+		     echo  "<br>";
+		    ?>
+		 <h3>Numbrite kasvatamine ja kahandamine</h3>
+		   <?php
+		     $sample_nr = 45; 
+		     $sample_nr = $sample_nr + 5; //Võimalus numbri  kasvatamiseks
+		     echo $sample_nr;
+		     echo  "<br>";
+
+		     $sample_nr2 = 45;
+		     $sample_nr2 += 5; //Sama asi lühemalt
+		     echo $sample_nr2;
+		     echo  "<br>";
 
 
+		     $sample_nr3 = 45;
+		     $sample_nr3 -=10; //Sama asi lahutamisega
+		     echo $sample_nr3;
+		     echo  "<br>";
+
+		     $sample_nr4 = 45;
+		     $sample_nr4 *=2; //Sama asi korrutamisega
+		     echo $sample_nr4;
+		     echo  "<br>";
+
+		     $sample_nr5 = 45;
+		     $sample_nr5 /=9; //Sama asi jagamisega
+		     echo $sample_nr5;
+		     echo  "<br>";
 		   ?>
-
-
-
-
-
-
-
-
+		 <h3>Numbri ja stringi liitmine</h3>
+		 <p>
+		 	Lugesin ülesande läbi ja sain aru. Kuna see on nagunii halb praktika, 
+		 	siis seda läbi ei katsetanud.
+		 </p>
   </body>
 </html>	
